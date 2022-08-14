@@ -14,7 +14,3 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 1. Baseline Conversion Rate - The Baseline Conversion Rate defines the current conversion rate of the implementation that we want to test.
 2. Minimum Detectable Effect - The Minimum Detectable Effect would be the lift desired for user to determine and decide that the variation has improved from the existing variation.
 3. Significance Threshold - The probability of committing Type I error which is deemed acceptable under the specific circumstances of the test in question.
-<!-- 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out. -->
