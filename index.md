@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## A/B Test Sample Size Calculator
 
-You can use the [editor on GitHub](https://github.com/edmundhong/AB-Test-Sample-Size-Calculator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A/B testing, also known as "Split Testing" is an experimental process that often used by Data Scientists or Analysts to determine the better variation of a new implementation. The application is used widely ranging from website design, payment gateway, funnel conversion to workflow enhancement. For this project, we are going to calculate the sample size needed for 50-50 A/B Testing based on several inputs by users.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To calculate the sample size, user will have to fill in the main components of A/B Testing and the script shall calculate the sample size needed for each variation.
 
-### Markdown
+<!-- 
+You can use the [editor on GitHub](https://github.com/edmundhong/AB-Test-Sample-Size-Calculator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files. -->
+<!-- 
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files. -->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Main Components in A/B Testing 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edmundhong/AB-Test-Sample-Size-Calculator/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
+1. Baseline Conversion Rate - The Baseline Conversion Rate defines the current conversion rate of the implementation that we want to test.
+2. Minimum Detectable Effect - The Minimum Detectable Effect would be the lift desired for user to determine and decide that the variation has improved from the existing variation.
+3. Significance Threshold - The probability of committing Type I error which is deemed acceptable under the specific circumstances of the test in question.
+<!-- 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out. -->
